@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: azure;
+}
+
+.box1{
+    margin: 100px auto;
+    width: 500px;
+    height: 600px;
+    padding: 30px;
+    background-color: lightgreen;
+    /* display: none; */
+}
+
+.title, .title2{
+    font-size: 25px;
+    margin: auto auto 20px;
+    width: 165px;
+    font-family: sans-serif;
+}
+
+.pole1, .pole2, .pole3, .pole4, .pole5, .pole6{
+    width: 100%;
+    height: 45px;
+    outline: none;
+    margin: 15px 0;
+    border-radius: 5px;
+    border: none;
+    padding: 20px;
+}
+
+.but1, .but2{
+    width: 100%;
+    height: 45px;
+    margin: 15px 0;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    padding: 13px;
+    font-size: 20px;
+    background-color: blueviolet;
+}
+
+.box2{
+    margin: 100px auto;
+    width: 500px;
+    height: 400px;
+    padding: 30px;
+    background-color: lightgreen;
+    display: none;
+}
+
+.singIn, .singUp{
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.box3{
+    margin: 100px auto 0;
+    width: 500px;
+    height: 650px;
+    padding: 30px;
+    background-color: #4f9191;
+    display: none;
+}
+
+.imag{
+    width: 150px;
+    min-height: 150px;
+    border-radius: 50%;
+    margin: 25px 145px;  
+}
+
+.wom{
+    background-image: url(image/g.jpg);
+    background-position: 10px;
+}
+
+.nameUs{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: sans-serif;
+    margin: 10px 80px;
+}
+
+.mailUs, .dsd{
+    font-size: 22px;
+    font-family: sans-serif;
+    margin: 10px 80px;
+}
+
+.but3{
+    margin: 245px 0 0 -30px;
+    width: 114%;
+    height: 50px;
+    background-color: lightgreen;
+    outline: none;
+    border: none;
+    padding: 13px;
+    font-size: 20px;
+}
